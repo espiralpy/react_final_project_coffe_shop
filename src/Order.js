@@ -18,7 +18,7 @@ class Order extends React.Component {
 	};
 
 	renderDeleteButton = (value) => {
-		return <button type="submit" ref="deleteButtonRef" name={value} onClick={this.delete}>Delete This Order </button>;
+		return <button className="main-button warning-button" type="submit" ref="deleteButtonRef" name={value} onClick={this.delete}>Delete This Order </button>;
 	};
 
 

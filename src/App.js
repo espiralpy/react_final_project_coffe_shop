@@ -5,7 +5,6 @@ import Inventory from './Inventory';
 import sampleCoffes from './sample-coffes';
 import Coffe from './Coffe';
 import Order from './Order';
-import base from './base';
 
 class App extends Component {
   state = {
