@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import verifyCoffe from "./verifyCoffe";
 
 const Button = styled.form`
 	.button {
@@ -57,6 +58,7 @@ class AddCoffeItem extends React.Component {
 		this.props.addCoffe(fish);
 
 		event.currentTarget.reset();
+		verifyCoffe('addedCoffe');
 	};
 
 	render() {
